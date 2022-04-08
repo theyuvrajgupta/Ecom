@@ -1,6 +1,12 @@
 # Ecom POC
 Build a proof of concept e-commerce store using Angular, .Net Core and Stripe for payment processing
 
+## Environment Details
+
+1. .NET Core 6
+2. Angular 12
+
+
 ## IDE Used
 VS Code
 
