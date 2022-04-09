@@ -1,5 +1,5 @@
 # Ecom POC
-Build a proof of concept e-commerce store using Angular, .Net Core and Stripe for payment processing
+Build a proof of concept e-commerce store, Skinet, using Angular, .Net Core and Stripe for payment processing
 
 ## Environment Details
 
