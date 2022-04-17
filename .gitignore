@@ -361,4 +361,10 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Exclude App Settings as it may contain passwords
+appsettings.json
+
+# Ignore DB files
+*.db
+
 # End of https://www.toptal.com/developers/gitignore/api/vs,dotnetcore
