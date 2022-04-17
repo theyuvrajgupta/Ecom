@@ -365,6 +365,6 @@ MigrationBackup/
 appsettings.json
 
 # Ignore DB files
-*.db
+*.db*
 
 # End of https://www.toptal.com/developers/gitignore/api/vs,dotnetcore
