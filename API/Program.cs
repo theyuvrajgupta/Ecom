@@ -17,8 +17,9 @@ namespace API
 
                 try{
                     
-                    var context = services.GetRequiredService<StoreContext>();
-                    await context.Database.MigrateAsync();
+                    var storeContext = services.GetRequiredService<StoreContext>();
+                    await storeContext.Database.MigrateAsync();
+                    await StoreContextSeed.SeedAsync(storeContext, loggerFactory);
 
                 }
                 catch(Exception e)
